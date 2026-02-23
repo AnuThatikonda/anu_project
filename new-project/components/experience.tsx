@@ -15,7 +15,7 @@ export function Experience() {
         </Reveal>
 
         <div className="relative mt-10">
-          <div className="absolute left-4 top-0 h-full w-px bg-gradient-to-b from-accent/70 via-white/10 to-transparent md:left-1/2 md:-translate-x-px" />
+          <div className="absolute left-4 top-0 h-full w-px -translate-x-1/2 bg-gradient-to-b from-accent/70 via-white/10 to-transparent md:left-1/2" />
 
           <div className="space-y-8">
             {portfolio.experience.map((role, index) => {
