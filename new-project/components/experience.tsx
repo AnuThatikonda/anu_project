@@ -27,7 +27,7 @@ export function Experience() {
                       isRight ? "md:[&>*:first-child]:col-start-2" : ""
                     }`}
                   >
-                    <div className="absolute left-4 top-7 h-3 w-3 -translate-x-1/2 rounded-full border-2 border-accent bg-ink md:left-1/2" />
+                    <div className="absolute left-4 top-7 h-3 w-3 -translate-x-1/2 rounded-full border-2 border-accent bg-ink md:left-1/2 md:-translate-x-1/2" />
                     <div className="ml-10 panel p-6 sm:p-7 md:ml-0">
                       <div className="flex flex-col gap-3 sm:flex-row sm:items-start sm:justify-between">
                         <div>
